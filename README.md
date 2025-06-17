@@ -17,7 +17,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: actions/test-action-javascript@v1.0
+uses: dev-ccazares/test-action-javascript@v1.0
 with:
   myInput: Mona the Octocat
 ```
