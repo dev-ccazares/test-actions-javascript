@@ -1,0 +1,16 @@
+name: "Test Action Javascript"
+description: "This is my Test Action Javascript"
+inputs:
+  myInput:
+    description: "An input for my action"
+    required: true
+    default: "Hello World"
+outputs:
+  time:
+    description: "An output for my action"
+runs:
+  using: "node12"
+  main: "index.js"
+branding:
+  icon: "check"
+  color: "blue"
